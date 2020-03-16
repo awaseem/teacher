@@ -153,7 +153,7 @@
   {
     "type": "choice",
     "title": "Error in code",
-    "content": "The following code sample is throwing an error, why is that?",
+    "content": "The following code is throwing an error, why is that?",
     "code": "2 x 2 = 4",
     "answers": [
       {
@@ -171,6 +171,23 @@
         "correct": true
       }
     ]
+  },
+
+  {
+    "type": "outline",
+    "title": "One more thing...",
+    "content": "There is another very popular sign in programming that gets used as well, and its called the \"Modulus\". What this does is allows you to get the remainder of division, we can worry about this later.",
+    "code": "5 % 4 = 1",
+    "buttonText": "Okay...",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "outline",
+    "title": "That's it!",
+    "content": "That's basically it for basic numbers, signs and operations. Not so bad, and its something that you might have already known. Remember to keep practicing and exploring what else you can do with numbers in JavaScript!",
+    "buttonText": "Got it",
+    "marker": "🙏"
   }
 
 ]
