@@ -6,6 +6,7 @@
     "buttonText": "Hold me",
     "marker": "🤗"
   },
+
   {
     "type": "choice",
     "title": "Getting warmed up",
@@ -22,6 +23,7 @@
       }
     ]
   },
+
   {
     "type": "choice",
     "title": "Fill in the blank",
@@ -39,11 +41,136 @@
       }
     ]
   },
+
   {
     "type": "codingInputChoice",
     "title": "Let me type!",
     "content": "Even sometimes you would need to write code yourself, this is all apart of the learning journey. What would you type here to fill in the blank? (hint: its exactly the same as the previous question)",
     "code": "2 + BLANK = 4",
     "expectedResponse": "2"
+  },
+
+  {
+    "type": "outline",
+    "title": "Why numbers?",
+    "content": "Numbers are some of the most basic things that most if not all programming languages can understand. This is great, because humans also know numbers quite well! This can be a great bridge into the world of the unknown (aka JavaScript) and something you already know.",
+    "buttonText": "To the unknown!",
+    "marker": "👽"
+  },
+
+  {
+    "type": "choice",
+    "title": "Sum",
+    "content": "Lets start with something simple, what sign do you use to add numbers together?",
+    "answers": [
+      {
+        "content": "-",
+        "correct": false,
+        "explanation": "I think you use that to subtract numbers..."
+      },
+      {
+        "content": "+",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "Sum in JavaScript",
+    "content": "Guess what? Adding numbers in JavaScript is exactly the same! Isn't that crazy? You already knew a bit of code before you started down this path",
+    "buttonText": "Woah",
+    "marker": "😲"
+  },
+
+  {
+    "type": "choice",
+    "title": "How about subtraction?",
+    "content": "What sign do you use to subtract numbers together?",
+    "answers": [
+      {
+        "content": "-",
+        "correct": true
+      },
+      {
+        "content": "÷",
+        "correct": false,
+        "explanation": "I think you use that to divide numbers..."
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "Subtraction in JavaScript",
+    "content": "Yup! Subtraction is exactly the same in JavaScript as well. Let's move on to multiplication and division, this is were things get interesting...",
+    "buttonText": "Let's do it",
+    "marker": "✖️"
+  },
+
+  {
+    "type": "choice",
+    "title": "How about multiplication?",
+    "content": "What sign do you use to multiply numbers together?",
+    "answers": [
+      {
+        "content": "x",
+        "correct": true
+      },
+      {
+        "content": "÷",
+        "correct": false,
+        "explanation": "I think you use that to divide numbers..."
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "Multiplication in JavaScript",
+    "content": "So in JavaScript multiplication is using the asterisks or \"*\" symbol instead of the traditional \"x\". All the rules of multiplication are the same, just the sign is different.",
+    "buttonText": "*",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "codingInputChoice",
+    "title": "Fill in the blank!",
+    "content": "If you multiply 2 and 10, you get 20. What sign should go in the blank?",
+    "code": "2 BLANK 10 = 20",
+    "expectedResponse": "*"
+  },
+
+  {
+    "type": "outline",
+    "title": "Division in JavaScript",
+    "content": "So in JavaScript division is also different! Instead of using the traditional \"÷\" sign, we use the forward slash or \"/\". All the rules of division are exactly the same, but with a different sign.",
+    "code": "4 / 2 = 2",
+    "buttonText": "*",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "choice",
+    "title": "Error in code",
+    "content": "The following code sample is throwing an error, why is that?",
+    "code": "2 x 2 = 4",
+    "answers": [
+      {
+        "content": "x should be ÷",
+        "correct": false,
+        "explanation": "Remember we can't use both those symbols to multiplication or division."
+      },
+      {
+        "content": "x should be /",
+        "correct": false,
+        "explanation": "That fixed the error, but resulted in the value being 1. We still want the value to be 4."
+      },
+      {
+        "content": "x should be *",
+        "correct": true
+      }
+    ]
   }
+
 ]
