@@ -19,7 +19,7 @@
       {
         "content": "What?",
         "correct": false,
-        "explanation": "If you get a question wrong, you'll get information as to why. You can retry and select another response anytime."
+        "explanation": "If you get a question wrong, you'll get information as to why. You can retry and select another response anytime. If you get a question wrong, you'll get information as to why. You can retry and select another response anytime. If you get a question wrong, you'll get information as to why. You can retry and select another response anytime."
       }
     ]
   },
@@ -189,5 +189,4 @@
     "buttonText": "Got it",
     "marker": "🙏"
   }
-
 ]

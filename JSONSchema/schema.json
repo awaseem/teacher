@@ -1,0 +1,112 @@
+{
+  "$id": "https://example.com/person.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Outline",
+  "type": "array",
+  "items": {
+    "anyOf": [
+      { "$ref": "#/definitions/outline" },
+      { "$ref": "#/definitions/choice" },
+      { "$ref": "#/definitions/codingInputChoice" }
+    ]
+  },
+  "definitions": {
+    "answers": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "string",
+          "description": "Value shown to the user"
+        },
+        "correct": {
+          "type": "boolean",
+          "description": "Check if the value is correct or not"
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Description as to why the content is correct or not",
+          "maxLength": 140
+        }
+      },
+      "required": ["content", "correct"]
+    },
+
+    "outline": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "outline"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the course "
+        },
+        "content": {
+          "type": "string",
+          "description": "The content you are trying to describe to others"
+        },
+        "buttonText": {
+          "type": "string",
+          "description": "Button text"
+        },
+        "marker": {
+          "type": "string",
+          "description": "Emoji that shows up after the user has held the button"
+        }
+      },
+      "required": ["type", "title", "content", "buttonText", "marker"]
+    },
+
+    "choice": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "choice"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the course "
+        },
+        "content": {
+          "type": "string",
+          "description": "The content you are trying to describe to others"
+        },
+        "code": {
+          "type": "string",
+          "description": "Code example that is needed for the question. Add the keyword BLANK to create an empty box within the code"
+        },
+        "answers": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/answers" }
+        }
+      },
+      "required": ["type", "title", "content", "answers"]
+    },
+
+    "codingInputChoice": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "codingInputChoice"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the course "
+        },
+        "content": {
+          "type": "string",
+          "description": "The content you are trying to describe to others"
+        },
+        "code": {
+          "type": "string",
+          "description": "Code example that is needed for the question. Add the keyword BLANK to create an empty box within the code"
+        },
+        "expectedResponse": {
+          "type": "string",
+          "description": "value that the user is entering (filters and trims white space, lowercase and ensure symbols are the same)"
+        }
+      },
+      "required": ["type", "title", "content", "code", "expectedResponse"]
+    }
+  }
+}
