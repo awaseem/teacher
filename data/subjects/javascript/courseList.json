@@ -3,12 +3,6 @@
     "id": "numbers",
     "name": "Simple Math",
     "emoji": "🔢",
-    "path": "/courses/numbers.json"
-  },
-  {
-    "id": "strings",
-    "name": "Strings",
-    "emoji": "🎻",
-    "path": "/courses/strings.json"
+    "path": "/courses/simpleMath.json"
   }
 ]
