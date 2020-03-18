@@ -1,7 +1,7 @@
 [
   {
     "id": "numbers",
-    "name": "Numbers",
+    "name": "Simple Math",
     "emoji": "🔢",
     "path": "/courses/numbers.json"
   },
