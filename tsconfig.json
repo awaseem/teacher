@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "noEmit": true,
-    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
     "strict": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+    "noEmit": true,
+    "resolveJsonModule": true
   }
 }

@@ -1,5 +1,4 @@
 import Avj from "ajv";
-import betterAjvErrors from "better-ajv-errors";
 import JSONSchema from "../JSONSchema/schema.json";
 import CourseTest from "../data/subjects/javascript/courses/numbers.json";
 
@@ -10,10 +9,10 @@ try {
   const valid = validate(CourseTest);
 
   if (!valid) {
-    const output = betterAjvErrors(JSONSchema, CourseTest, validate.errors);
     console.error(validate.errors);
-    console.error(output);
+    process.exit(1);
   }
 } catch (error) {
   console.error(error);
+  process.exit(1);
 }
