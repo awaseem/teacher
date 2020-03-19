@@ -4,5 +4,11 @@
     "name": "Simple Math",
     "emoji": "🔢",
     "path": "/courses/simpleMath.json"
+  },
+  {
+    "id": "strings",
+    "name": "Strings",
+    "emoji": "🎻",
+    "path": "/courses/strings.json"
   }
 ]
