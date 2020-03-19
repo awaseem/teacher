@@ -74,7 +74,7 @@
     "type": "outline",
     "title": "How are numbers Strings?",
     "content": "That last question was a bit tricky. Since the number was wrapped with quotes, JavaScript will treat it like a String. You always have to look at the code very carefully, never make any assumptions on what you see but rather how JavaScript will understand it. Anything wrapped in quotes is going to be String.",
-    "code": "2",
+    "code": "\"2\"",
     "buttonText": "Got it",
     "marker": "🙏"
   }
