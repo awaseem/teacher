@@ -1,0 +1,81 @@
+[
+  {
+    "type": "outline",
+    "title": "Strings!",
+    "content": "Strings are fundamental part of programming languages. As humans we write words/sentences everyday to communicate to each other, every message you input and see in this app is a String.",
+    "buttonText": "Okay...",
+    "marker": "🎻"
+  },
+
+  {
+    "type": "outline",
+    "title": "Strings in JavaScript",
+    "content": "Since Strings are just words or sentences, to create them in code you can wrap any sequence of characters in either a single quote: ' or a double quote: \". Either one works to let JavaScript know that you are creating a String!",
+    "code": "'This is a String in JavaScript'",
+    "buttonText": "Hmm",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this a string?",
+    "content": "Let's see if you understand how Strings are created. Is the following a String in JavaScript?",
+    "code": "'Am I a String?'",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "content": "No",
+        "correct": false,
+        "explanation": "A string is an sequence of characters wrapped in a single or double quote"
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "What about this?",
+    "content": "Is the following a String in JavaScript?",
+    "code": "\"Am I a string?\"",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "content": "No",
+        "correct": false,
+        "explanation": "A string is an sequence of characters wrapped in a single or double quote"
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "What about this?",
+    "content": "Is the following a String in JavaScript?",
+    "code": "\"2\"",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "content": "No",
+        "correct": false,
+        "explanation": "This can be tricky! Even though it's just a number since its wrapped in a double quote it is still a String!"
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "How are numbers Strings?",
+    "content": "That last question was a bit tricky. Since the number was wrapped with quotes, JavaScript will treat it like a String. You always have to look at the code very carefully, never make any assumptions on what you see but rather how JavaScript will understand it. Anything wrapped in quotes is going to be String.",
+    "code": "2",
+    "buttonText": "Got it",
+    "marker": "🙏"
+  }
+]
