@@ -175,11 +175,55 @@
 
   {
     "type": "outline",
+    "title": "What about BEDMAS?",
+    "content": "If you've never heard of BEDMAS, it's an acronym to help your remember he order of algebraic operations. The order goes brackets (B), exponents (E), Division (D), Multiplication (M), Addition (A) and Subtraction (S). This order is also respected when doing mathematical operations in JavaScript",
+    "buttonText": "Got it",
+    "marker": "😬"
+  },
+
+  {
+    "type": "choice",
+    "title": "Whats the value?",
+    "content": "What is the value of the following equation?",
+    "code": "2 - 4 / 2 ",
+    "answers": [
+      {
+        "content": "-1",
+        "correct": false,
+        "explanation": "Remember the order of the operation, division comes before subtraction"
+      },
+      {
+        "content": "0",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
     "title": "One more thing...",
     "content": "There is another very popular sign in programming that gets used as well, and its called the \"Modulus\". What this does is allows you to get the remainder of division, we can worry about this later.",
     "code": "5 % 4 = 1",
     "buttonText": "Okay...",
     "marker": "🤔"
+  },
+
+  {
+    "type": "choice",
+    "title": "Whats the value?",
+    "content": "What is the value of the following equation?",
+    "code": "9 % 6",
+    "answers": [
+      {
+        "content": "1.5",
+        "correct": false,
+        "explanation": "Remember this is the % operator that gives you the remainder, 9 does not go into 6 without a remainder left over..."
+      },
+      {
+        "content": "3",
+        "correct": true
+      }
+    ]
   },
 
   {
