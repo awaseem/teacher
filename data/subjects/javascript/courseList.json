@@ -10,5 +10,11 @@
     "name": "Strings",
     "emoji": "🎻",
     "path": "/courses/strings.json"
+  },
+  {
+    "id": "booleans",
+    "name": "Booleans",
+    "emoji": "👎",
+    "path": "/courses/booleans.json"
   }
 ]

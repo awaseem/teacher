@@ -1,0 +1,79 @@
+[
+  {
+    "type": "outline",
+    "title": "True or False!",
+    "content": "At this point, you have a pretty good understanding of Strings and Number in JavaScripts. Let's move on to something much easier to understand: Booleans!",
+    "buttonText": "Let's go",
+    "marker": "👍"
+  },
+
+  {
+    "type": "outline",
+    "title": "True or False!",
+    "content": "In JavaScript, Strings can be anything within a single or double quote. A Number can be any number you wish. Booleans, on the other hand, can only have two values symbolizing a truthful or false value.",
+    "buttonText": "Hmm...",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "outline",
+    "title": "Truthful",
+    "content": "A truthful value in JavaScript is represented as the following:",
+    "code": "true",
+    "buttonText": "Okay",
+    "marker": "👌"
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this true?",
+    "content": "Is the following code a Boolean in JavaScript?",
+    "code": "\"true\"",
+    "answers": [
+      {
+        "content": "Yup",
+        "correct": false,
+        "explanation": "Remember anything wrapped in a single or double quote is a String, not a boolean"
+      },
+      {
+        "content": "Nope",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "False",
+    "content": "A false value in JavaScript is represented as the following:",
+    "code": "false",
+    "buttonText": "Got it",
+    "marker": "🙆‍♂️"
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this false?",
+    "content": "Is the following code a Boolean in JavaScript?",
+    "code": "false",
+    "answers": [
+      {
+        "content": "Yup",
+        "correct": true
+      },
+      {
+        "content": "Nope",
+        "correct": false,
+        "explanation": "A Boolean is any value that is true or false, and casing matters"
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "Casing matters",
+    "content": "A boolean is a value that is either true or false. True with a capital \"T\" or False with a capital \"F\" will give errors because in JavaScript the casing of all statements matter!",
+    "buttonText": "OkAy",
+    "marker": "🦜"
+  }
+]
