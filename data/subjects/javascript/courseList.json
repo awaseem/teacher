@@ -21,7 +21,7 @@
     "id": "stringManipulation",
     "name": "'2' + 1 = '21'?",
     "emoji": "🧵",
-    "path": "/courses/booleans.json"
+    "path": "/courses/stringManipulation.json"
   },
   {
     "id": "variables",
