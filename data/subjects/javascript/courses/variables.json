@@ -1,0 +1,35 @@
+[
+  {
+    "type": "outline",
+    "title": "Variables!",
+    "content": "Now let's get to some meat and potatoes! In this course, we're going to talk about one of the most fundamental concepts to any programming language: Variables. A variable is considered an entity that stores a value.  Think of them as a magical container that can store anything inside for later use. In JavaScript, there are two ways to create variables, and we will get into which ones to use when and their differences.",
+    "buttonText": "Ouu",
+    "marker": "🍯"
+  },
+
+  {
+    "type": "outline",
+    "title": "Reserved keywords",
+    "content": "The two ways to create variables is by using a reserved keyword: let or const. See JavaScript and most programming languages have something called reserved keywords, this means that the programmer cannot use these words outside of them being in a String (wrapped in quotes). Meaning whenever you use the word let, JavaScript will always interpret that as a variable being created. This is so important, essentially a programmer can understand the context of these keywords and how they are used.",
+    "buttonText": "Okay",
+    "marker": "😯"
+  },
+
+  {
+    "type": "outline",
+    "title": "My first variable",
+    "content": "So how do you create a variable using let and how does it work? It's pretty simple, whenever you want to create a variable start by typing let. followed by the name and then what it equals. So in the following example below, you created a variable named myFirstVariable, and then assigned it a Number value of 2.",
+    "code": "let myFirstVariable = 2",
+    "buttonText": "Got it",
+    "marker": "👍"
+  },
+
+  {
+    "type": "outline",
+    "title": "Spaces?",
+    "content": "You'll notice that the name of the variable has no spacing, this is because variable names cannot have any spaces. Instead, the spaces are used to dictate each action happening in that line. I know this can be confusing, but imagine it as if you're writing a sentence, you use spaces to split the words, and in this case, we use spaces to split your actions. For example: let SPACE annotates that you are creating a variable, myFirstVariable SPACE annotates that the name of the variable is been defined, equal SPACE annotates that you are assigning a value. So instead we use camelCase to dictate our intention with a variable name!",
+    "code": "let myFirstVariable = 2",
+    "buttonText": "Hmm",
+    "marker": "🤔"
+  }
+]

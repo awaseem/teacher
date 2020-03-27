@@ -22,5 +22,11 @@
     "name": "'2' + 1 = '21'?",
     "emoji": "🧵",
     "path": "/courses/booleans.json"
+  },
+  {
+    "id": "variables",
+    "name": "Variables",
+    "emoji": "🏺",
+    "path": "/courses/variables.json"
   }
 ]
