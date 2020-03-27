@@ -1,0 +1,220 @@
+[
+  {
+    "type": "outline",
+    "title": "String manipulation!",
+    "content": "You probably saw the title of this course and thought to yourself, huh? how is 2 +1 equal to 21? Don't worry we're going to get into as to why but the bigger focus of this course is to talk about string manipulation.",
+    "buttonText": "Okay...",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "outline",
+    "title": "Why?",
+    "content": "You probably saw the title of this course and thought to yourself, huh? how is 2 +1 equal to 21? Don't worry we're going to get into as to why but the bigger focus of this course is to talk about string manipulation.",
+    "buttonText": "Got it",
+    "marker": "🧵"
+  },
+
+  {
+    "type": "choice",
+    "title": "Let's review",
+    "content": "Let's review to see if you understand strings. Is the following a String in JavaScript?",
+    "code": "'Am I a String?'",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "content": "No",
+        "correct": false,
+        "explanation": "A string is an sequence of characters wrapped in a single or double quote"
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Keep the review going",
+    "content": "Is the following a String in JavaScript?",
+    "code": "2",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": false,
+        "explanation": "This is a number in JavaScript, notice it doesn't have quotes around it? That should be the biggest giveaway..."
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "One more review",
+    "content": "Is the following a String in JavaScript?",
+    "code": "false",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": false,
+        "explanation": "This is a boolean in JavaScript, notice it doesn't have quotes around it? instead its the value false"
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "Adding strings",
+    "content": "Let's start by learning the most basic string manipulation, adding or joining strings together. This is as simple as adding a plus sign between any number of strings you want to join. In case below, we're joining two words and an empty space to create the statement: hello world.",
+    "code": "\"hello\" + \" \" + \"world\"",
+    "buttonText": "hello",
+    "marker": "👋"
+  },
+
+  {
+    "type": "choice",
+    "title": "Your turn!",
+    "content": "What does the following join result in?",
+    "code": "\"hello\" + \"world\"",
+    "answers": [
+      {
+        "content": "\"helloworld\"",
+        "correct": true
+      },
+      {
+        "content": "\"hello world\"",
+        "correct": false,
+        "explanation": "You're close, look at the statement again very closely... Do you see any space characters being joined or just two words?"
+      },
+      {
+        "content": "You can't add two strings",
+        "correct": false,
+        "explanation": "This isn't adding two strings together, rather joining them. Remember the + sign is used to join strings together"
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "What the what...",
+    "content": "Now let's get back to the title of this course, why does the statement below result in \"21\"? I know we discussed a whole course on numbers and how they work as expected in the real world as they do in JavaScript. In this case, pay closer attention to the values being added. You'll notice that the 2 is a String and 1 is number. Whenever you try to use the + sign with a String, JavaScript will convert any other value also to a String! So in this case, JavaScript will take 2 as a String, then convert 1 to a String and then join them together!",
+    "code": "\"2\" + 1 = \"21\"",
+    "buttonText": "Whaaa",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "choice",
+    "title": "Your turn!",
+    "content": "I know that last bit was really confusing, so let's try some examples so you can get the hang of it!. What is the result of the following?",
+    "code": "\"2\" + \"2\"",
+    "answers": [
+      {
+        "content": "\"22\"",
+        "correct": true
+      },
+      {
+        "content": "4",
+        "correct": false,
+        "explanation": "Look closely, both of those numbers are Strings! Remember the + sign is to join Strings together"
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Let's keep going...",
+    "content": "What is the result of the following?",
+    "code": "\"2\" + \"world\"",
+    "answers": [
+      {
+        "content": "Not possible",
+        "correct": false,
+        "explanation": "Not true, both the word: world and the number are strings, so you are joining them together"
+      },
+      {
+        "content": "\"2 world\"",
+        "correct": false,
+        "explanation": "Look closely, there isn't a space being joined! JavaScript Strings are very literal"
+      },
+      {
+        "content": "\"2world\"",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Tricky...",
+    "content": "What is the result of the following?",
+    "code": "2 + 2",
+    "answers": [
+      {
+        "content": "\"22\"",
+        "correct": false,
+        "explanation": "Look closely, both of those numbers are correct... Notice they don't have any quotes around them"
+      },
+      {
+        "content": "4",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Mixing away",
+    "content": "Let's get a bit more in depth, What is the result of the following?",
+    "code": "1 + \"1\"",
+    "answers": [
+      {
+        "content": "\"11\"",
+        "correct": true
+      },
+      {
+        "content": "2",
+        "correct": false,
+        "explanation": "Remember when you use the + sign with a String and a non String, JavaScript will convert all non Strings to Strings and then join them"
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Mixing away cont'd",
+    "content": "What is the result of the following?",
+    "code": "1 + \"1\" + true",
+    "answers": [
+      {
+        "content": "\"11\"",
+        "correct": false,
+        "explanation": "Your close, JavaScript will convert all non Strings and since Booleans are not Strings those will also get converted"
+      },
+      {
+        "content": "\"11true\"",
+        "correct": true
+      },
+      {
+        "content": "3",
+        "correct": false,
+        "explanation": "Remember when you use the + sign with a String and a non String, JavaScript will convert all non Strings to Strings and then join them"
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "What the what...",
+    "content": "I know that was a bit tricky, but you always have to remember that code is very literal! Always expect what you see and never make any assumptions as it can lead you down a scary path.",
+    "buttonText": "Thanks!",
+    "marker": "🤓"
+  }
+]
