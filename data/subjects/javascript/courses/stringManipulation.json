@@ -10,7 +10,7 @@
   {
     "type": "outline",
     "title": "Why?",
-    "content": "You probably saw the title of this course and thought to yourself, huh? how is 2 +1 equal to 21? Don't worry we're going to get into as to why but the bigger focus of this course is to talk about string manipulation.",
+    "content": "You're also wondering why string manipulation is so important? Most of the time a lot of the data you work with when creating websites or apps are usually strings, and in some cases, you need to perform magic like joining two sets of strings.",
     "buttonText": "Got it",
     "marker": "🧵"
   },
