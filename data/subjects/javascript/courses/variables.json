@@ -99,7 +99,7 @@
   {
     "type": "outline",
     "title": "Let's talk about it",
-    "content": "First, we'll start with let. This keyword allows you to create a variable and allow you to reassign the value later on. For example, you can see below that we create a variable called: myFirstVariable with the initial value being 2, then later own we changed that variables value to 4. This is called reassignment and it's possible with let.",
+    "content": "First, we'll start with let. This keyword allows you to create a variable and allow you to reassign the value later on. For example, you can see below that we create a variable called: myFirstVariable with the initial value being 2, then later on we changed that variable's value to 4. This is called reassignment and it's possible with let.",
     "code": "let myFirstLetVariable = 2\n\nmyFirstLetVariable = 4",
     "buttonText": "Got it",
     "marker": "✅"
@@ -109,7 +109,7 @@
     "type": "outline",
     "title": "Constant forever",
     "content": "Const, on the other hand, will never allow reassignment. This means when you create a variable with const, it'll throw errors if you try to reassign the value to something else. For example, myFirstVariable will always have the value 2, and trying to assign it to 4 can throw errors.",
-    "code": "const myFirstLetVariable = 2\n\nmyFirstLetVariable = 4 // not possible, will throw errors",
+    "code": "const myFirstLetVariable = 2\n\n// not possible, will throw errors\nmyFirstLetVariable = 4",
     "buttonText": "Forever is long time...",
     "marker": "⏰"
   },
@@ -118,7 +118,7 @@
     "type": "outline",
     "title": "Why?",
     "content": "You're probably thinking, why use const? Seems the limitations are not worth it and let can be very flexible. We use const to ensure that we are locking a value down on purpose, so no one else can come into the code and purposely or even accidentally change it later on. This can happen more than you think, so that's why we use const to ensure that variables being used aren't changed. ",
-    "code": "const myFirstLetVariable = 2\n\nmyFirstLetVariable = 4 // not possible, will throw errors",
+    "code": "const myFirstLetVariable = 2\n\n// not possible, will throw errors\nmyFirstLetVariable = 4 // not possible, will throw errors",
     "buttonText": "Okay",
     "marker": "🤔"
   },
@@ -131,7 +131,7 @@
     "answers": [
       {
         "content": "Yes",
-        "correct": true,
+        "correct": false,
         "explanation": "Remember a variable can store any value including a String! Even though this variable was a number, it can be changed to a string later on."
       },
       {
