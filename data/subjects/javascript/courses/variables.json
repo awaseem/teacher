@@ -10,7 +10,7 @@
   {
     "type": "outline",
     "title": "Reserved keywords",
-    "content": "The two ways to create variables is by using a reserved keyword: let or const. See JavaScript and most programming languages have something called reserved keywords, this means that the programmer cannot use these words outside of them being in a String (wrapped in quotes). Meaning whenever you use the word let, JavaScript will always interpret that as a variable being created. This is so important, essentially a programmer can understand the context of these keywords and how they are used.",
+    "content": "The two ways to create variables is by using a reserved keyword: let or const. See JavaScript and most programming languages have something called reserved keywords, this means that the programmer cannot use these words outside of them being in a String (wrapped in quotes). Meaning whenever you use the word let or const, JavaScript will always interpret that as a variable being created. This is so important, essentially a programmer can understand the context of these keywords and how they are used.",
     "buttonText": "Okay",
     "marker": "😯"
   },
@@ -31,5 +31,163 @@
     "code": "let myFirstVariable = 2",
     "buttonText": "Hmm",
     "marker": "🤔"
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this correct?",
+    "content": "Is this a proper way to create a new variable in JavaScript?",
+    "code": "const my number = 2",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": false,
+        "explanation": "Variable names can't have any spaces between them. Remember spaces are used to annotate an action is occurring."
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this correct?",
+    "content": "Is this a proper way to create a new variable in JavaScript?",
+    "code": "const const myNumber = 2",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": false,
+        "explanation": "You can only use the keyword const or let once to create a new variable, using it twice will result in an error within your code!"
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this correct?",
+    "content": "Is this a proper way to create a new variable in JavaScript?",
+    "code": "let myNumber = 2",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "content": "No",
+        "correct": false,
+        "explanation": "This is correct in every since, a single keyword is used with an equal sign stating the value of the variable"
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "What's the difference?",
+    "content": "Since we can create variables in JavaScript in two different ways, you might be thinking to yourself what's the difference? See both are valid ways to create and store a value, but they do have a very important difference when it comes to reassignment...",
+    "code": "let myFirstLetVariable = 2\n\nconst myFirstConstVariable = 2",
+    "buttonText": "What is it...",
+    "marker": "❓"
+  },
+
+  {
+    "type": "outline",
+    "title": "Let's talk about it",
+    "content": "First, we'll start with let. This keyword allows you to create a variable and allow you to reassign the value later on. For example, you can see below that we create a variable called: myFirstVariable with the initial value being 2, then later own we changed that variables value to 4. This is called reassignment and it's possible with let.",
+    "code": "let myFirstLetVariable = 2\n\nmyFirstLetVariable = 4",
+    "buttonText": "Got it",
+    "marker": "✅"
+  },
+
+  {
+    "type": "outline",
+    "title": "Constant forever",
+    "content": "Const, on the other hand, will never allow reassignment. This means when you create a variable with const, it'll throw errors if you try to reassign the value to something else. For example, myFirstVariable will always have the value 2, and trying to assign it to 4 can throw errors.",
+    "code": "const myFirstLetVariable = 2\n\nmyFirstLetVariable = 4 // not possible, will throw errors",
+    "buttonText": "Forever is long time...",
+    "marker": "⏰"
+  },
+
+  {
+    "type": "outline",
+    "title": "Why?",
+    "content": "You're probably thinking, why use const? Seems the limitations are not worth it and let can be very flexible. We use const to ensure that we are locking a value down on purpose, so no one else can come into the code and purposely or even accidentally change it later on. This can happen more than you think, so that's why we use const to ensure that variables being used aren't changed. ",
+    "code": "const myFirstLetVariable = 2\n\nmyFirstLetVariable = 4 // not possible, will throw errors",
+    "buttonText": "Okay",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this valid?",
+    "content": "Does the following code throw any errors?",
+    "code": "let myNumber = 2\n\nmyNumber = \"I'm not a number\"",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true,
+        "explanation": "Remember a variable can store any value including a String! Even though this variable was a number, it can be changed to a string later on."
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this valid?",
+    "content": "Does the following code throw any errors?",
+    "code": "const myNumber = 2\n\nmyNumber = \"I'm not a number\"",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "content": "No",
+        "correct": false,
+        "explanation": "Remember with const you cannot reassign the value of the variable onces its created."
+      }
+    ]
+  },
+
+  {
+    "type": "codingInputChoice",
+    "title": "Your turn",
+    "content": "Let's create our own variable, first we want this variable to be constant. What is the first word you should start with to create a constant variable?",
+    "code": "BLANK",
+    "expectedResponse": "const"
+  },
+
+  {
+    "type": "codingInputChoice",
+    "title": "Your turn",
+    "content": "Great! Now let's name the variable: doYouGetIt",
+    "code": "const BLANK",
+    "expectedResponse": "doYouGetIt"
+  },
+
+  {
+    "type": "codingInputChoice",
+    "title": "Your turn",
+    "content": "Awesome! Now lets assign it to a boolean thats truthful...",
+    "code": "const doYouGetIt = BLANK",
+    "expectedResponse": "true"
+  },
+
+  {
+    "type": "outline",
+    "title": "What about var?",
+    "content": "When researching on your own you'll notice another way to create variables in JavaScript using the keyword: var. Before const and let were added to the programming language, we use to create variables using the keyword: var. It behaved somewhat similar to let, where reassignment was possible, but also created weird bugs which we'll get into later. For now, just do what the rest of the JavaScript community did and ignore it!",
+    "buttonText": "R.I.P var",
+    "marker": "⚰️"
   }
 ]
