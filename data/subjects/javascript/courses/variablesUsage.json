@@ -1,0 +1,170 @@
+[
+  {
+    "type": "outline",
+    "title": "Huh?",
+    "content": "You're probably noticing that you've seen the title of this course somewhere else... Well, it's all good to create variables, but its also more important to understand how they're used and how they work with existing types like Strings, Number and Booleans!",
+    "buttonText": "Okay...",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "outline",
+    "title": "Types with variables",
+    "content": "See when a variable is assigned a value, the variable also becomes that type! For example, the code below makes myFirstVariable a String type. This is because after the equal sign we create a new string and assign it to myFirstVariable.",
+    "code": "const myFirstVariable = 'hello world'",
+    "buttonText": "That makes sense!",
+    "marker": "🙏"
+  },
+
+  {
+    "type": "choice",
+    "title": "What is my type?",
+    "content": "What is the type variable below?",
+    "code": "const someVariable = 2",
+    "answers": [
+      {
+        "content": "Number",
+        "correct": true
+      },
+      {
+        "content": "String",
+        "correct": false,
+        "explanation": "Since the value after the equal sign is a Number, then the variable is also a Number"
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "What is my type?",
+    "content": "What is the type variable below?",
+    "code": "const someVariable = \"true\"",
+    "answers": [
+      {
+        "content": "Boolean",
+        "correct": false,
+        "explanation": "Look carefully, since true is wrapped in quotes then the variable must be a String"
+      },
+      {
+        "content": "String",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "Using variables",
+    "content": "Since variables become the value and type they are assigned to, they function in the very same way when used in mathematical operations, string manipulation, or even creating new variables!",
+    "buttonText": "Hmm...",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "choice",
+    "title": "What is the value?",
+    "content": "Let's try working through some examples of variable usage. What is the value of the variable result?",
+    "code": "const myVariable = 2\n\nconst result = myVariable + 2",
+    "answers": [
+      {
+        "content": "4",
+        "correct": true
+      },
+      {
+        "content": "myVariable2",
+        "correct": false,
+        "explanation": "You'll notice that myVariable is first assigned to 2. so when we added another 2 it results in 4."
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "What is the value?",
+    "content": "What is the value of the variable result?",
+    "code": "const myVariable = 2\n\nconst myOtherVariable = 10\n\nconst result = myVariable + 2",
+    "answers": [
+      {
+        "content": "4",
+        "correct": true
+      },
+      {
+        "content": "12",
+        "correct": false,
+        "explanation": "Even though another variable is created, notice that result is only referencing myFirstVariable, so the result is still 4."
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "What is the value?",
+    "content": "What is the value of the variable result?",
+    "code": "const myVariable = 1\n\nconst myOtherVariable = myVariable * 10\n\nconst result = myOtherVariable + 2",
+    "answers": [
+      {
+        "content": "3",
+        "correct": false,
+        "explanation": "Pay attention to each line of code, since myOtherVariable is being added by 2 we should trace backwards to find myOtherVariables value."
+      },
+      {
+        "content": "12",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "What is the value?",
+    "content": "What is the value of the variable result?",
+    "code": "const hello = 'hi'\nconst world = 'earth'\n\nconst result = hello + world",
+    "answers": [
+      {
+        "content": "'hello world'",
+        "correct": false,
+        "explanation": "Remember where adding the values of hello and world, as in what they are assigned too!"
+      },
+      {
+        "content": "'hiearth'",
+        "correct": true
+      },
+      {
+        "content": "'hi earth'",
+        "correct": false,
+        "explanation": "You're close... Remember there is no space being added between the two variables!"
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "What is the value?",
+    "content": "What is the value of the variable result?",
+    "code": "const myVariable = '2'\nconst myOtherVariable = 1\n\nconst result = myVariable + myOtherVariable",
+    "answers": [
+      {
+        "content": "3",
+        "correct": false,
+        "explanation": "Pay close attention to myVariable, is the value a String or a Number?"
+      },
+      {
+        "content": "'21'",
+        "correct": true
+      },
+      {
+        "content": "This code throws an error",
+        "correct": false,
+        "explanation": "Think back to string manipulation and pay close attention to the values of each variable being added..."
+      }
+    ]
+  },
+
+  {
+    "type": "outline",
+    "title": "Using variables",
+    "content": "Going forward we won't be using Strings, Booleans or Numbers by themselves. Instead, we're going to start using more variables in examples and practice questions. In 90% of the case when writing code, you're referencing values via variables and I want to make sure you can get familiar to this new type of syntax!",
+    "buttonText": "To the future",
+    "marker": "🚀"
+  }
+]
