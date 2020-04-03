@@ -34,5 +34,11 @@
     "name": "myFirstVariable + 1 = '21'?",
     "emoji": "🧳",
     "path": "/courses/variablesUsage.json"
+  },
+  {
+    "id": "undefined",
+    "name": "No values?",
+    "emoji": "🤷‍♂️",
+    "path": "/courses/undefined.json"
   }
 ]

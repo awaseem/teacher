@@ -1,0 +1,63 @@
+[
+  {
+    "type": "outline",
+    "title": "What happens when you don't assign?",
+    "content": "We just learned about variables and how we can store values in them for later use, but what happens when you don't assign a value when creating a variable? ",
+    "buttonText": "Not sure...",
+    "marker": "🤷‍♂️"
+  },
+
+  {
+    "type": "outline",
+    "title": "No value assigned",
+    "content": "When we learn how to create variables, we always had a value assigned to it. You can also just create variables with no values assigned to it. In the code below myFirstVariable is assigned to a default value called undefined. This always happens when any variable is created and doesn't have anything assigned to it, otherwise to equal sign after the variable name.",
+    "code": "let myFirstVariable",
+    "buttonText": "undefined?",
+    "marker": "🤔"
+  },
+
+  {
+    "type": "outline",
+    "title": "undefined",
+    "content": "Undefined is also its own unique type and value. Meaning you can create variables and explicitly set the value to be undefined. So the following three variables below are assigned the same value.",
+    "code": "let myFirstVariable\n\nconst mySecondVariable\n\nlet myThirdVariable = undefined",
+    "buttonText": "All the same",
+    "marker": "😃"
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this correct?",
+    "content": "Does the following code work?",
+    "code": "const myNumber = undefined\n\nmyNumber = 2",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": false,
+        "explanation": "Remember you can't reassign the value of any variable declared using const, so myNumber will always have the value undefined"
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+
+  {
+    "type": "choice",
+    "title": "Is this correct?",
+    "content": "Does the following code work?",
+    "code": "let myNumber = undefined\n\nmyNumber = 2",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "content": "No",
+        "correct": false,
+        "explanation": "Remember you can reassign the value of any variable declared using let"
+      }
+    ]
+  }
+]
