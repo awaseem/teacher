@@ -3,41 +3,48 @@
     "id": "numbers",
     "name": "Simple Math",
     "emoji": "🔢",
+    "description": "Let's get started with some simple math!",
     "path": "/courses/simpleMath.json"
   },
   {
     "id": "strings",
     "name": "Strings",
     "emoji": "🎻",
+    "description": "Learn how words and characters work in JavaScript.",
     "path": "/courses/strings.json"
   },
   {
     "id": "booleans",
     "name": "Booleans",
+    "description": "Understand what the difference between true and false is.",
     "emoji": "👎",
     "path": "/courses/booleans.json"
   },
   {
     "id": "stringManipulation",
     "name": "'2' + 1 = '21'?",
+    "description": "What happens when you add Strings and Numbers?",
     "emoji": "🧵",
     "path": "/courses/stringManipulation.json"
   },
   {
     "id": "variables",
     "name": "Variables",
+    "description": "Storing values for later use!",
     "emoji": "🏺",
     "path": "/courses/variables.json"
   },
   {
     "id": "variablesUsage",
     "name": "myFirstVariable + 1 = '21'?",
+    "description": "Understand how variables get their types.",
     "emoji": "🧳",
     "path": "/courses/variablesUsage.json"
   },
   {
     "id": "undefined",
     "name": "No values?",
+    "description": "Learn about how empty values can also be a type!",
     "emoji": "🤷‍♂️",
     "path": "/courses/undefined.json"
   }
