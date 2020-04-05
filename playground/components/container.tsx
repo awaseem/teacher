@@ -7,9 +7,8 @@ export interface ContainerProps {
 
 const ContainerDiv = styled.div`
   display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  margin: 3rem;
 `
 
 export function Container({ children }: ContainerProps) {
