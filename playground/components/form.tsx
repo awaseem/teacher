@@ -15,6 +15,13 @@ const uiSchema = {
     code: {
       'ui:widget': 'textarea',
     },
+    answers: {
+      items: {
+        correct: {
+          'ui:widget': 'select',
+        },
+      },
+    },
   },
 }
 

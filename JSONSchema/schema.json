@@ -35,7 +35,7 @@
       "type": "object",
       "properties": {
         "type": {
-          "const": "outline"
+          "enum": ["outline"]
         },
         "title": {
           "type": "string",
@@ -44,6 +44,10 @@
         "content": {
           "type": "string",
           "description": "The content you are trying to describe to others"
+        },
+        "code": {
+          "type": "string",
+          "description": "Code example that is needed for the question. Add the keyword BLANK to create an empty box within the code"
         },
         "buttonText": {
           "type": "string",
@@ -61,7 +65,7 @@
       "type": "object",
       "properties": {
         "type": {
-          "const": "choice"
+          "enum": ["choice"]
         },
         "title": {
           "type": "string",
@@ -87,7 +91,7 @@
       "type": "object",
       "properties": {
         "type": {
-          "const": "codingInputChoice"
+          "enum": ["codingInputChoice"]
         },
         "title": {
           "type": "string",
