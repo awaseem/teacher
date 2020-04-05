@@ -12,7 +12,7 @@ export function FormContainer() {
 
   return (
     <Container>
-      <div style={{ flex: 0.7 }}>
+      <div style={{ flex: 1 }}>
         <JSONFrom
           formData={formData}
           schema={schema}
@@ -22,7 +22,7 @@ export function FormContainer() {
           }}
         />
       </div>
-      <div style={{ flex: 0.3 }}>
+      <div style={{ flex: 1, overflow: 'hidden', overflowX: 'scroll' }}>
         <JSONViewer object={formData} />
       </div>
     </Container>
