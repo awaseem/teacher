@@ -1,5 +1,5 @@
 import React from 'react'
-import Form, { IChangeEvent } from 'react-jsonschema-form'
+import Form, { IChangeEvent } from '@rjsf/core'
 
 export interface JSONFromProps {
   formData: Object
