@@ -7,6 +7,24 @@ export interface JSONFromProps {
   onChange: (event: IChangeEvent) => void
 }
 
+const uiSchema = {
+  items: {
+    content: {
+      'ui:widget': 'textarea',
+    },
+    code: {
+      'ui:widget': 'textarea',
+    },
+  },
+}
+
 export function JSONFrom({ schema, onChange, formData }: JSONFromProps) {
-  return <Form formData={formData} schema={schema} onChange={onChange} />
+  return (
+    <Form
+      uiSchema={uiSchema}
+      formData={formData}
+      schema={schema}
+      onChange={onChange}
+    />
+  )
 }
