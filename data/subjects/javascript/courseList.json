@@ -47,5 +47,12 @@
     "description": "Learn about how empty values can also be a type!",
     "emoji": "🤷‍♂️",
     "path": "/courses/undefined.json"
+  },
+  {
+    "id": "templateStrings",
+    "name": "Template Strings",
+    "description": "A powerful new way to create Strings.",
+    "emoji": "🏷️",
+    "path": "/courses/templateStrings.json"
   }
 ]
