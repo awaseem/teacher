@@ -18,12 +18,12 @@ export function JSONViewer({ object }: JSONViewerProps) {
       <div>
         <button
           onClick={() => copyToClipboard(JSONString)}
-          className="btn btn-info btn-add col-xs-12"
+          className="btn btn-info btn-add"
         >
           Copy to clipboard
         </button>
       </div>
-      <div>{JSONString}</div>
+      <div style={{ marginTop: '2rem' }}>{JSONString}</div>
     </ViewerDiv>
   )
 }
