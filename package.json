@@ -30,6 +30,9 @@
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
   },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
   "husky": {
     "hooks": {
       "pre-push": "npm test"

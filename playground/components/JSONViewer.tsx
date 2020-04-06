@@ -11,6 +11,23 @@ export interface JSONViewerProps {
 }
 
 export function JSONViewer({ object }: JSONViewerProps) {
-  const JSONString = object ? JSON.stringify(object, null, 2) : []
-  return <ViewerDiv>{JSONString}</ViewerDiv>
+  const JSONString = object ? JSON.stringify(object, null, 2) : '[]'
+
+  return (
+    <ViewerDiv>
+      <div>
+        <button
+          onClick={() => copyToClipboard(JSONString)}
+          className="btn btn-info btn-add col-xs-12"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+      <div>{JSONString}</div>
+    </ViewerDiv>
+  )
+}
+
+async function copyToClipboard(value: string) {
+  await navigator.clipboard.writeText(value)
 }
