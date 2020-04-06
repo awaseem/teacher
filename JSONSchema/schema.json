@@ -1,13 +1,16 @@
 {
   "$id": "https://example.com/person.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Outline",
+  "title": "Teacher",
   "type": "array",
   "items": {
     "anyOf": [
-      { "$ref": "#/definitions/outline" },
-      { "$ref": "#/definitions/choice" },
-      { "$ref": "#/definitions/codingInputChoice" }
+      { "title": "Outline Fields", "$ref": "#/definitions/outline" },
+      { "title": "Choice Fields", "$ref": "#/definitions/choice" },
+      {
+        "title": "Coding Input Fields",
+        "$ref": "#/definitions/codingInputChoice"
+      }
     ]
   },
   "definitions": {

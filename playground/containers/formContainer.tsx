@@ -16,10 +16,7 @@ export function FormContainer() {
         <JSONFrom
           formData={formData}
           schema={schema}
-          onChange={event => {
-            setFormData(event.formData)
-            console.log(event)
-          }}
+          onChange={({ formData }) => setFormData(formData)}
         />
       </div>
       <div style={{ flex: 1, overflow: 'hidden', overflowX: 'scroll' }}>
