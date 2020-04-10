@@ -4,13 +4,15 @@
     "name": "JavaScript",
     "emoji": "🤓",
     "description": "Learn what makes the web and many other applications tick.",
-    "path": "/javascript/courseList.json"
+    "path": "/javascript/courseList.json",
+    "color": "#FED18C"
   },
   {
     "id": "python",
     "name": "Python",
     "emoji": "🐍",
     "description": "One of the most powerful languages that touches every aspect of the world.",
-    "path": "/python/courseList.json"
+    "path": "/python/courseList.json",
+    "color": "#4B8BBE"
   }
 ]
