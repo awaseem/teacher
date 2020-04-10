@@ -1,0 +1,16 @@
+[
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "emoji": "🤓",
+    "description": "Learn what makes the web and many other applications tick.",
+    "path": "/javascript/courseList.json"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "emoji": "🐍",
+    "description": "One of the most powerful languages that touches every aspect of the world.",
+    "path": "/python/courseList.json"
+  }
+]
