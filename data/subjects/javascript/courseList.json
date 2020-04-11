@@ -1,55 +1,55 @@
 [
   {
-    "id": "numbers",
+    "id": "javascript-numbers",
     "name": "Simple Math",
     "emoji": "🔢",
     "description": "Let's get started with some simple math!",
     "path": "/subjects/javascript/courses/simpleMath.json"
   },
   {
-    "id": "strings",
+    "id": "javascript-strings",
     "name": "Strings",
     "emoji": "🎻",
     "description": "Learn how words and characters work in JavaScript.",
     "path": "/subjects/javascript/courses/strings.json"
   },
   {
-    "id": "booleans",
+    "id": "javascript-booleans",
     "name": "Booleans",
     "description": "Understand what the difference between true and false is.",
     "emoji": "👎",
     "path": "/subjects/javascript/courses/booleans.json"
   },
   {
-    "id": "stringManipulation",
+    "id": "javascript-stringManipulation",
     "name": "'2' + 1 = '21'?",
     "description": "What happens when you add Strings and Numbers?",
     "emoji": "🧵",
     "path": "/subjects/javascript/courses/stringManipulation.json"
   },
   {
-    "id": "variables",
+    "id": "javascript-variables",
     "name": "Variables",
     "description": "Storing values for later use!",
     "emoji": "🏺",
     "path": "/subjects/javascript/courses/variables.json"
   },
   {
-    "id": "variablesUsage",
+    "id": "javascript-variablesUsage",
     "name": "myFirstVariable + 1 = '21'?",
     "description": "Understand how variables get their types.",
     "emoji": "🧳",
     "path": "/subjects/javascript/courses/variablesUsage.json"
   },
   {
-    "id": "undefined",
+    "id": "javascript-undefined",
     "name": "No values?",
     "description": "Learn about how empty values can also be a type!",
     "emoji": "🤷‍♂️",
     "path": "/subjects/javascript/courses/undefined.json"
   },
   {
-    "id": "templateStrings",
+    "id": "javascript-templateStrings",
     "name": "Template Strings",
     "description": "A powerful new way to create Strings.",
     "emoji": "🏷️",
