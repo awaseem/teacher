@@ -50,7 +50,7 @@
         },
         "code": {
           "type": "string",
-          "description": "Code example that is needed for the question. Add the keyword BLANK to create an empty box within the code"
+          "description": "Code example that is needed for the question. Add the keyword ❓ to create an empty box within the code"
         },
         "buttonText": {
           "type": "string",
@@ -80,7 +80,7 @@
         },
         "code": {
           "type": "string",
-          "description": "Code example that is needed for the question. Add the keyword BLANK to create an empty box within the code"
+          "description": "Code example that is needed for the question. Add the keyword ❓ to create an empty box within the code"
         },
         "answers": {
           "type": "array",
@@ -106,7 +106,7 @@
         },
         "code": {
           "type": "string",
-          "description": "Code example that is needed for the question. Add the keyword BLANK to create an empty box within the code"
+          "description": "Code example that is needed for the question. Add the keyword ❓ to create an empty box within the code"
         },
         "expectedResponse": {
           "type": "string",
