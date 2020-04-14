@@ -26,9 +26,9 @@
 
   {
     "type": "choice",
-    "title": "Fill in the blank",
-    "content": "Sometimes you might even be faced in filling in what is missing in real code, can you guess what the blank value is suppose to be?",
-    "code": "2 + BLANK = 4",
+    "title": "Fill in the ❓",
+    "content": "Sometimes you might even be faced in filling in what is missing in real code, can you guess what the ❓ value is suppose to be?",
+    "code": "2 + ❓ = 4",
     "answers": [
       {
         "content": "2",
@@ -45,8 +45,8 @@
   {
     "type": "codingInputChoice",
     "title": "Let me type!",
-    "content": "Even sometimes you would need to write code yourself, this is all apart of the learning journey. What would you type here to fill in the blank? (hint: its exactly the same as the previous question)",
-    "code": "2 + BLANK = 4",
+    "content": "Even sometimes you would need to write code yourself, this is all apart of the learning journey. What would you type here to fill in the ❓? (hint: its exactly the same as the previous question)",
+    "code": "2 + ❓ = 4",
     "expectedResponse": "2"
   },
 
@@ -135,9 +135,9 @@
 
   {
     "type": "codingInputChoice",
-    "title": "Fill in the blank!",
-    "content": "If you multiply 2 and 10, you get 20. What sign should go in the blank?",
-    "code": "2 BLANK 10 = 20",
+    "title": "Fill in the ❓!",
+    "content": "If you multiply 2 and 10, you get 20. What sign should go in the ❓?",
+    "code": "2 ❓ 10 = 20",
     "expectedResponse": "*"
   },
 

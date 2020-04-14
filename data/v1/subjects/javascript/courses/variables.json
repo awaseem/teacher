@@ -163,7 +163,7 @@
     "type": "codingInputChoice",
     "title": "Your turn",
     "content": "Let's create our own variable, first we want this variable to be constant. What is the first word you should start with to create a constant variable?",
-    "code": "BLANK",
+    "code": "❓",
     "expectedResponse": "const"
   },
 
@@ -171,7 +171,7 @@
     "type": "codingInputChoice",
     "title": "Your turn",
     "content": "Great! Now let's name the variable: doYouGetIt",
-    "code": "const BLANK",
+    "code": "const ❓",
     "expectedResponse": "doYouGetIt"
   },
 
@@ -179,7 +179,7 @@
     "type": "codingInputChoice",
     "title": "Your turn",
     "content": "Awesome! Now lets assign it to a boolean thats truthful...",
-    "code": "const doYouGetIt = BLANK",
+    "code": "const doYouGetIt = ❓",
     "expectedResponse": "true"
   },
 
