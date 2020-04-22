@@ -17,14 +17,14 @@ Teacher is an open source project, and contributions of any kind are welcome and
 - When submitting work, please ensure to create a pull request with pictures or videos showcasing the changes to the app (if any visual changes).
 - Ensure to run the prettier and eslint within you text editor
 
-Have fun and don't be afraid to reach out for any questions or concerns. If you want to add courses
+Have fun and don't be afraid to reach out for any questions or concerns. If you want to add or modify courses or subjects, it best to understand how the data get transformed within the app. Please use the following as a reference for modifications to the `data` folder
 
 ### Terminology
 
-### Modifying Existing Courses
+### Courses to Screens
 
-### Creating Courses and Subjects
+### Creating Subjects
 
 # License
 
-This project is open source and available under the [MIT License.](https://github.com/awaseem/teacher/blob/master/LICENSE.md)
+This project is open source and available under the [MIT License.](https://github.com/awaseem/teacher/blob/dev/LICENSE)
