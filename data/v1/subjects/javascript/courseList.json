@@ -14,6 +14,12 @@
     "path": "/subjects/javascript/courses/strings.json"
   },
   {
+    "id": "javascript-comments",
+    "name": "Comment",
+    "emoji": "💬",
+    "path": "/subjects/javascript/courses/comments.json"
+  },
+  {
     "id": "javascript-booleans",
     "name": "Booleans",
     "description": "Understand what the difference between true and false is.",
