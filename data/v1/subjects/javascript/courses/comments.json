@@ -1,0 +1,99 @@
+[
+  {
+    "type": "outline",
+    "title": "Comments",
+    "content": "Sometimes code can get so confusing to understand, even senior programmers have a hard time understanding complex statements that was written by someone else. This is why programming languages have comments.",
+    "code": "// Hi I'm a comment",
+    "buttonText": "Ouu",
+    "marker": "🎤"
+  },
+  {
+    "type": "outline",
+    "title": "How does it work?",
+    "content": "A comment is used to describe a line of code, so that other programmers can understand whats happening before dissecting each word in a statement. In JavaScript a comment is indicated by two forward slashes and then a short sentence describing the code.",
+    "code": "// This statement equals 4\n2 + 2",
+    "buttonText": "Got it",
+    "marker": "👍"
+  },
+  {
+    "type": "choice",
+    "title": "Is this a comment?",
+    "content": "Is the following statement below a comment?",
+    "code": "\\\\ am I a comment?",
+    "answers": [
+      {
+        "correct": false,
+        "content": "Yes",
+        "explanation": "Remember a comment starts with two forward slashes"
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "outline",
+    "title": "Multiple lines",
+    "content": "A comment with two forward slashes can only exist on that single line, once you press the enter key you have to again start the comment with another two forward slashes like below: ",
+    "code": "// hello world\n// how are you",
+    "buttonText": "hmm",
+    "marker": "🤔"
+  },
+  {
+    "type": "outline",
+    "title": "Multiple lines cont'd",
+    "content": "Sometimes you want the ability to add a paragraph without worrying about the forward slashes in front of each line. Another way to write comment in JavaScript is to use a comment block, also known as a multiline comment. You open the block by using \"/*\" and then write any statement you want, and finish the comment block with \"*/\".",
+    "code": "/*\n  now I can write what\n  ever I want\n  without those\n  pesky slashes\n*/",
+    "buttonText": "\\* cool */",
+    "marker": "😎"
+  },
+  {
+    "type": "choice",
+    "title": "Are the following comments?",
+    "content": "Are these comments in JavaScript?",
+    "code": "// hello world\n\n/* hello world */",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": true
+      },
+      {
+        "correct": false,
+        "content": "No",
+        "explanation": "Remember comments can be created with forward slashes and /* */ "
+      }
+    ]
+  },
+  {
+    "type": "outline",
+    "title": "Ignored?",
+    "content": "Comments are completely ignored by JavaScript. When you code is run, the are removed. This makes sense, since comments are used for us humans to understand what a statement is doing, for the machine understanding the code it's completely useless.",
+    "buttonText": "Ignore away",
+    "code": "// JavaScript ignores this statement\n\n/* It ignores this one as well */",
+    "marker": "👻"
+  },
+  {
+    "type": "choice",
+    "title": "What does this equal?",
+    "content": "What does this following statement equal?",
+    "answers": [
+      {
+        "content": "4",
+        "correct": false,
+        "explanation": "Comments are ignored by JavaScript, so it's seeing 2 + "
+      },
+      {
+        "content": "Invalid statement",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "outline",
+    "title": "One last thing",
+    "content": "Comments are great and can help provide context to code thats confusing at a first glance. Just be careful to only use comments where it makes sense to do so. You don't want to add too many comments, as that can be very confusing to the reader. ",
+    "buttonText": "Got it",
+    "marker": "🙌"
+  }
+]
