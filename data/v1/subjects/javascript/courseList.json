@@ -17,6 +17,7 @@
     "id": "javascript-comments",
     "name": "Comment",
     "emoji": "💬",
+    "description": "Express code with sentences rather than syntax.",
     "path": "/subjects/javascript/courses/comments.json"
   },
   {
