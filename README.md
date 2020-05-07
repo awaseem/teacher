@@ -26,10 +26,10 @@ npm install && npm start
 
 # Contributing
 
-Teacher is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the issues tab and labeled accordingly. Feel free to open bug tickets and make feature requests. Please follow these small rules to ensure everything can produced smoothly, can't wait to see your work!
+Teacher is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the issues tab and labeled accordingly. Feel free to open bug tickets and make feature requests. Please follow these small rules to ensure everything can be produced smoothly, can't wait to see your work!
 
 - When submitting work, please ensure to create a pull request with pictures or videos showcasing the changes to the app (if any visual changes).
-- Ensure to run the prettier and eslint within you text editor
+- Ensure to run the prettier and eslint within your text editor
 
 Have fun and don't be afraid to reach out for any questions or concerns. If you want to add or modify courses or subjects, it's best to understand how the data gets transformed within the app. Please use the following as a reference for modifications to the `data` folder
 

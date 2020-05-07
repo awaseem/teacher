@@ -10,7 +10,7 @@
   {
     "type": "outline",
     "title": "No value assigned",
-    "content": "When we learn how to create variables, we always had a value assigned to it. You can also just create variables with no values assigned to it. In the code below myFirstVariable is assigned to a default value called undefined. This always happens when any variable is created and doesn't have anything assigned to it, otherwise to equal sign after the variable name.",
+    "content": "When we learn how to create variables, we always had a value assigned to it. You can also just create variables with no values assigned to it. In the code below myFirstVariable is assigned to a default value called undefined. This always happens when any variable is created and doesn't have anything assigned to it.",
     "code": "let myFirstVariable",
     "buttonText": "undefined?",
     "marker": "🤔"
