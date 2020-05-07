@@ -2,7 +2,7 @@
   {
     "type": "outline",
     "title": "Comments",
-    "content": "Sometimes code can get so confusing to understand, even senior programmers have a hard time understanding complex statements that was written by someone else. This is why programming languages have comments.",
+    "content": "Sometimes code can get so confusing to understand, even senior programmers have a hard time understanding complex statements that were written by someone else. This is why programming languages have comments.",
     "code": "// Hi I'm a comment",
     "buttonText": "Ouu",
     "marker": "🎤"
@@ -10,7 +10,7 @@
   {
     "type": "outline",
     "title": "How does it work?",
-    "content": "A comment is used to describe a line of code, so that other programmers can understand whats happening before dissecting each word in a statement. In JavaScript a comment is indicated by two forward slashes and then a short sentence describing the code.",
+    "content": "A comment is used to describe a line of code, so that other programmers can understand what's happening before dissecting each word in a statement. In JavaScript, a comment is indicated by two forward slashes and then a short sentence describing the code.",
     "code": "// This statement equals 4\n2 + 2",
     "buttonText": "Got it",
     "marker": "👍"
@@ -68,7 +68,7 @@
   {
     "type": "outline",
     "title": "Ignored?",
-    "content": "Comments are completely ignored by JavaScript. When you code is run, the are removed. This makes sense, since comments are used for us humans to understand what a statement is doing, for the machine understanding the code it's completely useless.",
+    "content": "Comments are completely ignored by JavaScript. When your code is run, they are removed. This makes sense, since comments are used for us humans to understand what a statement is doing, for the machine understanding the code it's completely useless.",
     "buttonText": "Ignore away",
     "code": "// JavaScript ignores this statement\n\n/* It ignores this one as well */",
     "marker": "👻"

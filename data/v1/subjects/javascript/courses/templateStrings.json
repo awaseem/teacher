@@ -2,7 +2,7 @@
   {
     "type": "outline",
     "title": "Template Strings",
-    "content": "Remember when I said there was two different ways to create Strings? Well actually there is another way... But this way is extremely powerful and provides a set features that a single or double quote can't! This way of creating Strings with this new feature is called Template Strings. \n\nNote: Template Strings is the name of the feature, when you use the feature your still creating a plain old String!",
+    "content": "Remember when I said there was two different ways to create Strings? Well actually there is another way... But this way is extremely powerful and provides a set features that a single or double quote can't! This way of creating Strings with this new feature is called Template Strings. \n\nNote: Template Strings is the name of the feature, when you use the feature you're still creating a plain old String!",
     "buttonText": "Another way?",
     "marker": "🤔"
   },
@@ -34,7 +34,7 @@
   {
     "type": "outline",
     "title": "What's the difference?",
-    "content": "Remember when we use the plus sign to join two or more String together, well one of the most powerful feature about Template Strings is to join values more explicitly! ",
+    "content": "Remember when we use the plus sign to join two or more Strings together, well one of the most powerful features about Template Strings is being able to join values more explicitly! ",
     "code": "const hello = 'hi'\nconst world = 'earth'\n\n// So clunky and confusing\nconst newString = hello + ' ' + world",
     "buttonText": "A better way?",
     "marker": "👍"
@@ -42,12 +42,12 @@
   {
     "type": "outline",
     "title": "Reference",
-    "content": "Within a Template string, you can join values by laying out the structure of a sentence and filling in the variable values when needed. I know that's confusing, but let me explain. Inside of the back ticks, you can reference a variables value using the following syntax: ${name of variable}\n\nSo using the example before, with Template Strings it would look like the following below. When the dollar sign and braces are used, the Template String will fill in the value of the variable instead of using the word.",
+    "content": "Within a Template string, you can join values by laying out the structure of a sentence and filling in the variable values when needed. I know that's confusing, but let me explain. Inside of the back ticks, you can reference a variable's value using the following syntax: ${name of variable}\n\nSo using the example before, with Template Strings it would look like the following below. When the dollar sign and braces are used, the Template String will fill in the value of the variable instead of using the word.",
     "buttonText": "${}?",
     "marker": "🤔"
   },
   {
-    "content": "So using the example before, with Template Strings it would look like the following below. When the dollar sign and braces are used, the Template String will fill in the value of the variable instead of using the word itself. So newString would have \"hi there\" instead of \"hello world\".\n\nAlso notice how we don't have to add the space in? This is because with Template Strings you can define the structure of the String and fill in the values of any variable being referenced ",
+    "content": "So using the example before, with Template Strings it would look like the following below. When the dollar sign and braces are used, the Template String will fill in the value of the variable instead of using the word itself. So newString would have \"hi there\" instead of \"hello world\".\n\nAlso notice how we don't have to add the space in? This is because with Template Strings, you can define the structure of the String and fill in the values of any variable being referenced ",
     "code": "const hello = 'hi'\nconst world = 'earth'\n\n\nconst newString = `${hello} ${world}`",
     "title": "$ { }?",
     "type": "outline",
@@ -96,7 +96,7 @@
   {
     "type": "outline",
     "title": "You can do a lot more...",
-    "content": "Not only can you reference values within the ${}'s but you can also to operations inside as well. Plus any value that is the result of an operation is automatically converted to a String! \n\nThis is similar to when we tried to add a String and a Number together and how the Number got converted to a String!",
+    "content": "Not only can you reference values within the ${}'s but you can also use operations inside as well. Plus any value that is the result of an operation is automatically converted to a String! \n\nThis is similar to when we tried to add a String and a Number together and how the Number got converted to a String!",
     "code": "// value of aTemplateString is \"the coolest number is 4\"\nconst aTemplateString = `the coolest number is: ${2 + 2}`",
     "buttonText": "Wow",
     "marker": "😲"
