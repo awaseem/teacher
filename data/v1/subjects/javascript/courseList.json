@@ -15,7 +15,7 @@
   },
   {
     "id": "javascript-comments",
-    "name": "Comment",
+    "name": "Comments",
     "emoji": "💬",
     "description": "Express code with sentences rather than syntax.",
     "path": "/subjects/javascript/courses/comments.json"
@@ -50,7 +50,7 @@
   },
   {
     "id": "javascript-undefined",
-    "name": "No values?",
+    "name": "No Values?",
     "description": "Learn about how empty values can also be a type!",
     "emoji": "🤷‍♂️",
     "path": "/subjects/javascript/courses/undefined.json"

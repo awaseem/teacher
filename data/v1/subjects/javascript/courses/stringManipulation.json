@@ -2,7 +2,7 @@
   {
     "type": "outline",
     "title": "String manipulation!",
-    "content": "You probably saw the title of this course and thought to yourself, huh? how is 2 +1 equal to 21? Don't worry we're going to get into as to why but the bigger focus of this course is to talk about string manipulation.",
+    "content": "You probably saw the title of this course and thought to yourself, huh? How is 2 + 1 equal to 21? Don't worry we're going to get into the to why but the bigger focus of this course is to talk about string manipulation.",
     "buttonText": "Okay...",
     "marker": "🤔"
   },
@@ -10,7 +10,7 @@
   {
     "type": "outline",
     "title": "Why?",
-    "content": "You're also wondering why string manipulation is so important? Most of the time a lot of the data you work with when creating websites or apps are usually strings, and in some cases, you need to perform magic like joining two sets of strings.",
+    "content": "You're also probably wondering why string manipulation is so important? Most of the time a lot of the data you work with when creating websites or apps are usually strings, and in some cases, you need to perform magic like joining two sets of strings.",
     "buttonText": "Got it",
     "marker": "🧵"
   },
@@ -60,7 +60,7 @@
       {
         "content": "Yes",
         "correct": false,
-        "explanation": "This is a boolean in JavaScript, notice it doesn't have quotes around it? instead its the value false"
+        "explanation": "This is a boolean in JavaScript, notice how it doesn't have quotes around it? Instead it's the value false"
       },
       {
         "content": "No",
@@ -123,7 +123,7 @@
       {
         "content": "4",
         "correct": false,
-        "explanation": "Look closely, both of those numbers are Strings! Remember the + sign is to join Strings together"
+        "explanation": "Look closely, both of those numbers are Strings! Remember the + sign is used to join Strings together"
       }
     ]
   },
@@ -137,7 +137,7 @@
       {
         "content": "Not possible",
         "correct": false,
-        "explanation": "Not true, both the word: world and the number are strings, so you are joining them together"
+        "explanation": "Not true, both the word \"world\" and the number are strings, so you are joining them together"
       },
       {
         "content": "\"2 world\"",
@@ -172,7 +172,7 @@
   {
     "type": "choice",
     "title": "Mixing away",
-    "content": "Let's get a bit more in depth, What is the result of the following?",
+    "content": "Let's get a bit more in-depth, What is the result of the following?",
     "code": "1 + \"1\"",
     "answers": [
       {
@@ -182,7 +182,7 @@
       {
         "content": "2",
         "correct": false,
-        "explanation": "Remember when you use the + sign with a String and a non String, JavaScript will convert all non Strings to Strings and then join them"
+        "explanation": "Remember when you use the + sign with a String and a non-String, JavaScript will convert all non-Strings to Strings and then join them"
       }
     ]
   },
@@ -196,7 +196,7 @@
       {
         "content": "\"11\"",
         "correct": false,
-        "explanation": "Your close, JavaScript will convert all non Strings and since Booleans are not Strings those will also get converted"
+        "explanation": "You're close, JavaScript will convert all non-Strings and since Booleans are not Strings those will also get converted"
       },
       {
         "content": "\"11true\"",
@@ -205,7 +205,7 @@
       {
         "content": "3",
         "correct": false,
-        "explanation": "Remember when you use the + sign with a String and a non String, JavaScript will convert all non Strings to Strings and then join them"
+        "explanation": "Remember when you use the + sign with a String and a non-String, JavaScript will convert all non-Strings to Strings and then join them"
       }
     ]
   },

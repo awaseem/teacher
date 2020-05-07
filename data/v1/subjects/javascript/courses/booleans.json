@@ -2,7 +2,7 @@
   {
     "type": "outline",
     "title": "True or False!",
-    "content": "At this point, you have a pretty good understanding of Strings and Number in JavaScripts. Let's move on to something much easier to understand: Booleans!",
+    "content": "At this point, you have a pretty good understanding of Strings and Numbers in JavaScript. Let's move on to something much easier to understand: Booleans!",
     "buttonText": "Let's go",
     "marker": "👍"
   },
