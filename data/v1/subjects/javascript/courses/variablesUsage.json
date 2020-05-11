@@ -104,12 +104,12 @@
     "answers": [
       {
         "content": "3",
-        "correct": false,
-        "explanation": "Pay attention to each line of code, since myOtherVariable is being added by 2 we should trace backwards to find myOtherVariables value."
+        "correct": true
       },
       {
         "content": "12",
-        "correct": true
+        "correct": false,
+        "explanation": "Pay attention to each line of code, since myOtherVariable is being added by 2 we should trace backwards to find myOtherVariables value."
       }
     ]
   },
