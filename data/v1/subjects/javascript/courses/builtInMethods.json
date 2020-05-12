@@ -1,0 +1,92 @@
+[
+  {
+    "type": "outline",
+    "title": ".what()?",
+    "content": "In previous courses, you've learned about Numbers and Strings and what roles they play in JavaScript. The thing is that there's more to them then just meets the eye. They have some hidden surprises.",
+    "buttonText": "Okay",
+    "marker": "👁️",
+    "code": "const aSimpleString = 'hello world'"
+  },
+  {
+    "type": "outline",
+    "title": "Change my casing!",
+    "content": "So let's learn about some of these hidden surprises... This is going to be your first introduction to methods. Don't worry if you don't quite understand them, we'll go over them later in other courses. ",
+    "code": "const aSimpleString = 'hello world'\n\naSimpleString. toUpperCase()",
+    "buttonText": "Methods?",
+    "marker": "🤔"
+  },
+  {
+    "type": "outline",
+    "title": "Change my casing cont'd!",
+    "content": "Let's learn about a basic method, changing the casing. On any String, you can call this method to change the casing to all upper case. What happens is that JavaScript will take the String you're calling the method on, transform it and return a new String. This is important, as it doesn't modify the original String, rather creates a new one with the transformations ",
+    "code": "const aSimpleString = 'hello world'\n\n// aSimpleStringUpperCase is now 'HELLO WORLD'\nconst aSimpleStringUpperCase = aSimpleString.toUpperCase()",
+    "buttonText": "Returns?",
+    "marker": "🤔"
+  },
+  {
+    "type": "choice",
+    "title": "Return? Methods?",
+    "content": "I know I just threw a lot of new terminologies your way. So let's try learning by doing! What is the value of myString?",
+    "code": "const aSimpleString = 'hi'\nconst myString = aSimpleString.toUpperCase()",
+    "answers": [
+      {
+        "content": "HI",
+        "correct": true
+      },
+      {
+        "content": "hi",
+        "correct": false,
+        "explanation": "Remember .toUpperCase() creates a new string that is all upper cased"
+      }
+    ]
+  },
+  {
+    "type": "choice",
+    "content": "Since myString is all capitalized, does the value of aSimpleString change?",
+    "title": "Return? Methods? Cont'd",
+    "code": "const aSimpleString = 'hi'\nconst myString = aSimpleString.toUpperCase()",
+    "answers": [
+      {
+        "content": "Yes",
+        "correct": false,
+        "explanation": ".toUpperCase() does not change the value of the original String"
+      },
+      {
+        "content": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "outline",
+    "title": "All these methods...",
+    "content": "There are so many built-in methods that you can call on a case by case basis. We don't have time to go over each and everyone, as some of them will come up in later courses. Here are some methods that are useful:\n    - toLowerCase(): creates a new string that is all lower case\n    - toTrim(): remove spaces from the beginning and end\n    - toTrimEnd(): remove spaces from the end\n    - toTrimStart(): removes spaces from the beginning",
+    "buttonText": "A whole new world",
+    "marker": "🗺️"
+  },
+  {
+    "type": "outline",
+    "title": "What about Numbers?",
+    "content": "Numbers also have some built-in methods, one of them is the ability to convert a Number into a String. toString() is going to come back later when discussing other types.",
+    "code": "const myNumber = 2\n// myStringNumber is now '2'\nconst myStringNumber = myNumber.toString()",
+    "buttonText": "toString",
+    "marker": "🎻"
+  },
+  {
+    "type": "choice",
+    "title": "Let's try it out!",
+    "content": "What is the value of myVariable?",
+    "code": "const myNumber = 2\nconst myVariable = 2 + myNumber.toString()",
+    "answers": [
+      {
+        "content": "\"22\"",
+        "correct": true
+      },
+      {
+        "content": "4",
+        "correct": false,
+        "explanation": "Since myNumber is being converted to a string, this is string concatenation  "
+      }
+    ]
+  }
+]
