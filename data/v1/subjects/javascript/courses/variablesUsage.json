@@ -2,7 +2,7 @@
   {
     "type": "outline",
     "title": "Huh?",
-    "content": "You're probably noticing that you've seen the title of this course somewhere else... Well, it's all good to create variables, but its also more important to understand how they're used and how they work with existing types like Strings, Number and Booleans!",
+    "content": "You're probably noticing that you've seen the title of this course somewhere else... Well, it's all good to create variables, but it's also more important to understand how they're used and how they work with existing types like Strings, Number and Booleans!",
     "buttonText": "Okay...",
     "marker": "🤔"
   },
@@ -104,12 +104,12 @@
     "answers": [
       {
         "content": "3",
-        "correct": false,
-        "explanation": "Pay attention to each line of code, since myOtherVariable is being added by 2 we should trace backwards to find myOtherVariables value."
+        "correct": true
       },
       {
         "content": "12",
-        "correct": true
+        "correct": false,
+        "explanation": "Pay attention to each line of code, since myOtherVariable is being added by 2 we should trace backwards to find myOtherVariables value."
       }
     ]
   },
@@ -123,7 +123,7 @@
       {
         "content": "'hello world'",
         "correct": false,
-        "explanation": "Remember where adding the values of hello and world, as in what they are assigned too!"
+        "explanation": "Remember we're adding the values of hello and world, as in what they are assigned to!"
       },
       {
         "content": "'hiearth'",
@@ -163,7 +163,7 @@
   {
     "type": "outline",
     "title": "Using variables",
-    "content": "Going forward we won't be using Strings, Booleans or Numbers by themselves. Instead, we're going to start using more variables in examples and practice questions. In 90% of the case when writing code, you're referencing values via variables and I want to make sure you can get familiar to this new type of syntax!",
+    "content": "Going forward we won't be using Strings, Booleans or Numbers by themselves. Instead, we're going to start using more variables in examples and practice questions. In 90% of the case when writing code, you're referencing values via variables and I want to make sure you can get familiar with this new type of syntax!",
     "buttonText": "To the future",
     "marker": "🚀"
   }

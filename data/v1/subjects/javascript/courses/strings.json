@@ -65,7 +65,7 @@
       {
         "content": "No",
         "correct": false,
-        "explanation": "This can be tricky! Even though it's just a number since its wrapped in a double quote it is still a String!"
+        "explanation": "This can be tricky! Even though it's just a number since it's wrapped in a double quote it is still a String!"
       }
     ]
   },
