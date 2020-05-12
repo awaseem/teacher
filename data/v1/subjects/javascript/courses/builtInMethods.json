@@ -11,7 +11,7 @@
     "type": "outline",
     "title": "Change my casing!",
     "content": "So let's learn about some of these hidden surprises... This is going to be your first introduction to methods. Don't worry if you don't quite understand them, we'll go over them later in other courses. ",
-    "code": "const aSimpleString = 'hello world'\n\naSimpleString. toUpperCase()",
+    "code": "const aSimpleString = 'hello world'\n\naSimpleString.toUpperCase()",
     "buttonText": "Methods?",
     "marker": "🤔"
   },
