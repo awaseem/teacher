@@ -61,5 +61,12 @@
     "description": "A powerful new way to create Strings.",
     "emoji": "🏷️",
     "path": "/subjects/javascript/courses/templateStrings.json"
+  },
+  {
+    "id": "javascript-builtInMethods",
+    "name": ".What()?",
+    "description": "Learn about built in methods in Strings and Numbers",
+    "emoji": "🏷️",
+    "path": "/subjects/javascript/courses/builtInMethods.json"
   }
 ]
