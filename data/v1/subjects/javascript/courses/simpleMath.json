@@ -80,7 +80,8 @@
     "title": "Sum in JavaScript",
     "content": "Guess what? Adding numbers in JavaScript is exactly the same! Isn't that crazy? You already knew a bit of code before you started down this path",
     "buttonText": "Woah",
-    "marker": "😲"
+    "marker": "😲",
+    "cheatSheet": true
   },
 
   {
@@ -130,7 +131,8 @@
     "title": "Multiplication in JavaScript",
     "content": "So in JavaScript multiplication is using the asterisks or \"*\" symbol instead of the traditional \"x\". All the rules of multiplication are the same, just the sign is different.",
     "buttonText": "*",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {
@@ -147,7 +149,8 @@
     "content": "So in JavaScript division is also different! Instead of using the traditional \"÷\" sign, we use the forward slash or \"/\". All the rules of division are exactly the same, but with a different sign.",
     "code": "4 / 2 = 2",
     "buttonText": "*",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {
@@ -178,7 +181,8 @@
     "title": "What about BEDMAS?",
     "content": "If you've never heard of BEDMAS, it's an acronym to help you remember the order of algebraic operations. The order goes Brackets (B), Exponents (E), Division (D), Multiplication (M), Addition (A) and Subtraction (S). This order is also respected when doing mathematical operations in JavaScript",
     "buttonText": "Got it",
-    "marker": "😬"
+    "marker": "😬",
+    "cheatSheet": true
   },
 
   {
@@ -205,7 +209,8 @@
     "content": "There is another very popular sign in programming that gets used as well, and its called the \"Modulus\". What this does is allows you to get the remainder of a division, we can worry about this later.",
     "code": "5 % 4 = 1",
     "buttonText": "Okay...",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {

@@ -21,7 +21,8 @@
     "content": "A truthful value in JavaScript is represented as the following:",
     "code": "true",
     "buttonText": "Okay",
-    "marker": "👌"
+    "marker": "👌",
+    "cheatSheet": true
   },
 
   {
@@ -48,7 +49,8 @@
     "content": "A false value in JavaScript is represented as the following:",
     "code": "false",
     "buttonText": "Got it",
-    "marker": "🙆‍♂️"
+    "marker": "🙆‍♂️",
+    "cheatSheet": true
   },
 
   {

@@ -21,7 +21,8 @@
     "content": "Let's learn about a basic method, changing the casing. On any String, you can call this method to change the casing to all upper case. What happens is that JavaScript will take the String you're calling the method on, transform it and return a new String. This is important, as it doesn't modify the original String, rather creates a new one with the transformations ",
     "code": "const aSimpleString = 'hello world'\n\n// aSimpleStringUpperCase is now 'HELLO WORLD'\nconst aSimpleStringUpperCase = aSimpleString.toUpperCase()",
     "buttonText": "Returns?",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
   {
     "type": "choice",
@@ -62,7 +63,8 @@
     "title": "All these methods...",
     "content": "There are so many built-in methods that you can call on a case by case basis. We don't have time to go over each and everyone, as some of them will come up in later courses. Here are some methods that are useful:\n    - toLowerCase(): creates a new string that is all lower case\n    - toTrim(): remove spaces from the beginning and end\n    - toTrimEnd(): remove spaces from the end\n    - toTrimStart(): removes spaces from the beginning",
     "buttonText": "A whole new world",
-    "marker": "🗺️"
+    "marker": "🗺️",
+    "cheatSheet": true
   },
   {
     "type": "outline",
@@ -70,7 +72,8 @@
     "content": "Numbers also have some built-in methods, one of them is the ability to convert a Number into a String. toString() is going to come back later when discussing other types.",
     "code": "const myNumber = 2\n// myStringNumber is now '2'\nconst myStringNumber = myNumber.toString()",
     "buttonText": "toString",
-    "marker": "🎻"
+    "marker": "🎻",
+    "cheatSheet": true
   },
   {
     "type": "choice",

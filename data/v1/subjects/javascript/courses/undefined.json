@@ -13,7 +13,8 @@
     "content": "When we learn how to create variables, we always had a value assigned to it. You can also just create variables with no values assigned to it. In the code below myFirstVariable is assigned to a default value called undefined. This always happens when any variable is created and doesn't have anything assigned to it.",
     "code": "let myFirstVariable",
     "buttonText": "undefined?",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {
@@ -22,7 +23,8 @@
     "content": "Undefined is also its own unique type and value. Meaning you can create variables and explicitly set the value to be undefined. So the following three variables below are assigned the same value.",
     "code": "let myFirstVariable\n\nconst mySecondVariable\n\nlet myThirdVariable = undefined",
     "buttonText": "All the same",
-    "marker": "😃"
+    "marker": "😃",
+    "cheatSheet": true
   },
 
   {

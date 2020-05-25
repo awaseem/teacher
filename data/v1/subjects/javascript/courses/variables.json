@@ -21,7 +21,8 @@
     "content": "So how do you create a variable using let and how does it work? It's pretty simple, whenever you want to create a variable start by typing let. followed by the name and then what it equals. So in the following example below, you created a variable named myFirstVariable, and then assigned it a Number value of 2.",
     "code": "let myFirstVariable = 2",
     "buttonText": "Got it",
-    "marker": "👍"
+    "marker": "👍",
+    "cheatSheet": true
   },
 
   {
@@ -30,7 +31,8 @@
     "content": "You'll notice that the name of the variable has no spacing, this is because variable names cannot have any spaces. Instead, the spaces are used to dictate each action happening in that line. I know this can be confusing, but imagine it as if you're writing a sentence, you use spaces to split the words, and in this case, we use spaces to split your actions. For example: let SPACE annotates that you are creating a variable, myFirstVariable SPACE annotates that the name of the variable is been defined, equal SPACE annotates that you are assigning a value. So instead we use camelCase to dictate our intention with a variable name!",
     "code": "let myFirstVariable = 2",
     "buttonText": "Hmm",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {
@@ -93,7 +95,8 @@
     "content": "Since we can create variables in JavaScript in two different ways, you might be thinking to yourself what's the difference? See both are valid ways to create and store a value, but they do have a very important difference when it comes to reassignment...",
     "code": "let myFirstLetVariable = 2\n\nconst myFirstConstVariable = 2",
     "buttonText": "What is it...",
-    "marker": "❓"
+    "marker": "❓",
+    "cheatSheet": true
   },
 
   {
@@ -102,7 +105,8 @@
     "content": "First, we'll start with let. This keyword allows you to create a variable and allows you to reassign its value later on. For example, you can see below that we create a variable called: myFirstVariable with the initial value being 2, then later on we changed that variable's value to 4. This is called reassignment and it's possible with let.",
     "code": "let myFirstLetVariable = 2\n\nmyFirstLetVariable = 4",
     "buttonText": "Got it",
-    "marker": "✅"
+    "marker": "✅",
+    "cheatSheet": true
   },
 
   {
@@ -111,7 +115,8 @@
     "content": "Const, on the other hand, will never allow reassignment. This means when you create a variable with const, it'll throw errors if you try to reassign the value to something else. For example, myFirstVariable will always have the value 2, and trying to assign it to 4 can throw errors.",
     "code": "const myFirstLetVariable = 2\n\n// not possible, will throw errors\nmyFirstLetVariable = 4",
     "buttonText": "Forever is long time...",
-    "marker": "⏰"
+    "marker": "⏰",
+    "cheatSheet": true
   },
 
   {
@@ -120,7 +125,8 @@
     "content": "You're probably thinking, why use const? Seems the limitations are not worth it and let can be very flexible. We use const to ensure that we are locking a value down on purpose, so no one else can come into the code and purposely or even accidentally change it later on. This can happen more than you think, so that's why we use const to ensure that variables being used aren't changed.",
     "code": "const myFirstLetVariable = 2\n\n// not possible, will throw errors\nmyFirstLetVariable = 4 // not possible, will throw errors",
     "buttonText": "Okay",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {
@@ -188,6 +194,7 @@
     "title": "What about var?",
     "content": "When researching on your own, you'll notice another way to create variables in JavaScript using the keyword: var. Before const and let were added to the programming language, we used to create variables using the keyword: var. It behaved somewhat similar to let, where reassignment was possible, but also created weird bugs which we'll get into later. For now, just do what the rest of the JavaScript community did and ignore it!",
     "buttonText": "R.I.P var",
-    "marker": "⚰️"
+    "marker": "⚰️",
+    "cheatSheet": true
   }
 ]

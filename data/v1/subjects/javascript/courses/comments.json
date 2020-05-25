@@ -5,7 +5,8 @@
     "content": "Sometimes code can get so confusing to understand, even senior programmers have a hard time understanding complex statements that were written by someone else. This is why programming languages have comments.",
     "code": "// Hi I'm a comment",
     "buttonText": "Ouu",
-    "marker": "🎤"
+    "marker": "🎤",
+    "cheatSheet": true
   },
   {
     "type": "outline",
@@ -13,7 +14,8 @@
     "content": "A comment is used to describe a line of code, so that other programmers can understand what's happening before dissecting each word in a statement. In JavaScript, a comment is indicated by two forward slashes and then a short sentence describing the code.",
     "code": "// This statement equals 4\n2 + 2",
     "buttonText": "Got it",
-    "marker": "👍"
+    "marker": "👍",
+    "cheatSheet": true
   },
   {
     "type": "choice",
@@ -46,7 +48,8 @@
     "content": "Sometimes you want the ability to add a paragraph without worrying about the forward slashes in front of each line. Another way to write comment in JavaScript is to use a comment block, also known as a multiline comment. You open the block by using \"/*\" and then write any statement you want, and finish the comment block with \"*/\".",
     "code": "/*\n  now I can write what\n  ever I want\n  without those\n  pesky slashes\n*/",
     "buttonText": "\\* cool */",
-    "marker": "😎"
+    "marker": "😎",
+    "cheatSheet": true
   },
   {
     "type": "choice",
@@ -71,7 +74,8 @@
     "content": "Comments are completely ignored by JavaScript. When your code is run, they are removed. This makes sense, since comments are used for us humans to understand what a statement is doing, for the machine understanding the code it's completely useless.",
     "buttonText": "Ignore away",
     "code": "// JavaScript ignores this statement\n\n/* It ignores this one as well */",
-    "marker": "👻"
+    "marker": "👻",
+    "cheatSheet": true
   },
   {
     "type": "choice",

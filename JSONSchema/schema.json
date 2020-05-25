@@ -59,6 +59,10 @@
         "marker": {
           "type": "string",
           "description": "Emoji that shows up after the user has held the button"
+        },
+        "cheatSheet": {
+          "type": "boolean",
+          "description": "Add this content to the cheat sheet to display when the user completes a course"
         }
       },
       "required": ["type", "title", "content", "buttonText", "marker"]

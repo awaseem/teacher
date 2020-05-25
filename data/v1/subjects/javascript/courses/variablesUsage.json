@@ -13,7 +13,8 @@
     "content": "See when a variable is assigned a value, the variable also becomes that type! For example, the code below makes myFirstVariable a String type. This is because after the equal sign we create a new string and assign it to myFirstVariable.",
     "code": "const myFirstVariable = 'hello world'",
     "buttonText": "That makes sense!",
-    "marker": "🙏"
+    "marker": "🙏",
+    "cheatSheet": true
   },
 
   {

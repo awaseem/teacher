@@ -75,7 +75,8 @@
     "content": "Let's start by learning the most basic string manipulation, adding or joining strings together. This is as simple as adding a plus sign between any number of strings you want to join. In case below, we're joining two words and an empty space to create the statement: hello world.",
     "code": "\"hello\" + \" \" + \"world\"",
     "buttonText": "hello",
-    "marker": "👋"
+    "marker": "👋",
+    "cheatSheet": true
   },
 
   {
@@ -107,7 +108,8 @@
     "content": "Now let's get back to the title of this course, why does the statement below result in \"21\"? I know we discussed a whole course on numbers and how they work as expected in the real world as they do in JavaScript. In this case, pay closer attention to the values being added. You'll notice that the 2 is a String and 1 is number. Whenever you try to use the + sign with a String, JavaScript will convert any other value also to a String! So in this case, JavaScript will take 2 as a String, then convert 1 to a String and then join them together!",
     "code": "\"2\" + 1 = \"21\"",
     "buttonText": "Whaaa",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {

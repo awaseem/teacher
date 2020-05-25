@@ -13,7 +13,8 @@
     "content": "Since Strings are just words or sentences, to create them in code you can wrap any sequence of characters in either a single quote: ' or a double quote: \". Either one works to let JavaScript know that you are creating a String!",
     "code": "'This is a String in JavaScript'",
     "buttonText": "Hmm",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
 
   {

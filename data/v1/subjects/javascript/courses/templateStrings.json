@@ -12,7 +12,8 @@
     "content": "Let's start with the basics, to create a Template String you start off with two back ticks or ` like the following. Then you fill the content like you would normally with a regular String creation.",
     "code": "const myFirstTemplateString = `hello world`",
     "buttonText": "Okay",
-    "marker": "😃"
+    "marker": "😃",
+    "cheatSheet": true
   },
   {
     "type": "choice",
@@ -44,7 +45,8 @@
     "title": "Reference",
     "content": "Within a Template string, you can join values by laying out the structure of a sentence and filling in the variable values when needed. I know that's confusing, but let me explain. Inside of the back ticks, you can reference a variable's value using the following syntax: ${name of variable}\n\nSo using the example before, with Template Strings it would look like the following below. When the dollar sign and braces are used, the Template String will fill in the value of the variable instead of using the word.",
     "buttonText": "${}?",
-    "marker": "🤔"
+    "marker": "🤔",
+    "cheatSheet": true
   },
   {
     "content": "So using the example before, with Template Strings it would look like the following below. When the dollar sign and braces are used, the Template String will fill in the value of the variable instead of using the word itself. So newString would have \"hi there\" instead of \"hello world\".\n\nAlso notice how we don't have to add the space in? This is because with Template Strings, you can define the structure of the String and fill in the values of any variable being referenced ",
@@ -99,7 +101,8 @@
     "content": "Not only can you reference values within the ${}'s but you can also use operations inside as well. Plus any value that is the result of an operation is automatically converted to a String! \n\nThis is similar to when we tried to add a String and a Number together and how the Number got converted to a String!",
     "code": "// value of aTemplateString is \"the coolest number is 4\"\nconst aTemplateString = `the coolest number is: ${2 + 2}`",
     "buttonText": "Wow",
-    "marker": "😲"
+    "marker": "😲",
+    "cheatSheet": true
   },
   {
     "type": "choice",
